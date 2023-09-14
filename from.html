@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 5px 10px;
+        }
+
+        label {
+            display: block;
+            margin-bottom: 10px;
+            margin-top: 10px;
+        }
+
+        h1 {
+            text-align: center;
+            font-size: 40px;
+            background-color: beige;
+            margin: 0%;
+        }
+
+        h2 {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Lottery 2024</h1>
+    <h2>Apply for win</h2>
+    <form>
+        <label for="name">First name <input id="name" type="text" placeholder="Type your name">
+        </label>
+        <label for="name">Last name <input id="name" type="text" placeholder="Type your name">
+        </label>
+
+        <label for="email">Your Email <input id="email" type="text" placeholder="Type your email">
+        </label>
+        <fieldset>
+            <legend>You can pick one item</legend>
+            <label for="Iphone 15 Pro Max">
+                <input type="radio" name="Mobile" id="Iphone 15 Pro Max">Iphone 15 Pro Max
+                <label for="Samsung S-24 Ultra">
+                    <input type="radio" name="Mobile" id="Samsung S-24 Ultra">Samsung S-24 Ultra
+                </label>
+                <label for="Google Pixel 8 Pro">
+                    <input type="radio" name="Mobile" id="Google Pixel 8 Pro">Google Pixel 8 Pro
+                </label>
+                <label for="One Plus 10 Pro">
+                    <input type="radio" name="Mobile" id="One Plus 10 Pro">One Plus 10 Pro
+                </label>
+        </fieldset>
+        <fieldset>
+            <legend>Select one or more product</legend>
+            <label for="Charger">
+                <input type="checkbox" name="accessories" id="Charger">Charger
+            </label>
+            <label for="Extra Battery">
+                <input type="checkbox" name="accessories" id="Extra Battery">Extra Battery
+            </label>
+            <label for="Headphone">
+                <input type="checkbox" name="accessories" id="Headphone">Headphone
+            </label>
+            <label for="Selfe stand">
+                <input type="checkbox" name="accessories" id="Selfe stand">Selfe stand
+            </label>
+        </fieldset>
+        <fieldset>
+            <legend>Describe your thoughts and feelings, </legend>
+            <textarea name="" id="" cols="70" rows="6"></textarea>
+        </fieldset>
+        <input type="reset" value="Reset">
+        <input type="submit" value="Submit">
+
+    </form>
+</body>
+
+</html>
